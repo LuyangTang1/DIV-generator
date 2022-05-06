@@ -1,0 +1,34 @@
+.image {
+  /*background-position:center center;*/
+  background-repeat: no-repeat;
+}
+
+img {
+  position: absolute;
+}
+
+.grid1 {
+  position: relative;
+  background-color: transparent;
+  top: 135px;
+  left: 693px;
+  height: 857px;
+  width: 518px;
+  margin: 0;
+  padding: 0;
+  border: 5px solid yellow;
+}
+
+.grid2 {
+  position: relative;
+  background-color: transparent;
+  top: 115px;
+  left: 72px;
+  height: 85px;
+  width: 200px;
+  margin: 0;
+  padding: 0;
+  border: 5px solid yellow;
+}
+
+/*# sourceMappingURL=style.css.map */
