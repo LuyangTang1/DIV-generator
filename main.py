@@ -1,7 +1,7 @@
 import json
 import webbrowser
 
-with open('json-doc/via_project_6May2022_16h5m.json') as json_file:
+with open('json-doc/via_project_12May2022_12h14m.json') as json_file:
     via_file = json.load(json_file)
 
 via_img_metadata = via_file['_via_img_metadata']
@@ -17,7 +17,13 @@ shape_attributes = {}
 for i in range(len(shapes)):
     shape_attributes[filenames[i]] = [s['shape_attributes'] for s in shapes[i]]
 
-###############  Only 1 image with 1 box ###############
+
+###############  1 image with horizontal flex boxes ###############
+img = filenames[0]
+_box1 = shape_attributes[img][0]
+
+
+####################  Only 1 image with 1 box #####################
 img = filenames[0]
 _box1 = shape_attributes[img][0]
 
