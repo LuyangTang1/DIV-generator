@@ -1,34 +1,59 @@
 .image {
-  /*background-position:center center;*/
   background-repeat: no-repeat;
-}
+  background-image: url("image/horizontal-boxes.png");
+  width: 1525px;
+  height: 693px;
+  display: flex;
+  align-items: flex-start;
 
-img {
-  position: absolute;
 }
 
 .grid1 {
-  position: relative;
-  background-color: transparent;
-  top: 135px;
-  left: 693px;
-  height: 857px;
-  width: 518px;
-  margin: 0;
-  padding: 0;
-  border: 5px solid yellow;
+    background-color: transparent;
+    top: 24px;
+    left: 41px;
+    height: 657px;
+    width: 359px;
+    margin-left: 36px;
+    margin-top: 19px;
+    padding: 0;
+    border: 5px solid yellow;
 }
 
 .grid2 {
-  position: relative;
-  background-color: transparent;
-  top: 115px;
-  left: 72px;
-  height: 85px;
-  width: 200px;
-  margin: 0;
-  padding: 0;
-  border: 5px solid yellow;
+    background-color: transparent;
+    top: 21px;
+    left: 415px;
+    height: 661px;
+    width: 361px;
+    margin-left: 10px;
+    margin-top: 16px;
+    padding: 0;
+    border: 5px solid yellow;
+}
+
+.grid3 {
+    background-color: transparent;
+    top: 21px;
+    left: 789px;
+    height: 663px;
+    width: 364px;
+    margin-left: 8px;
+    margin-top: 16px;
+    padding: 0;
+    border: 5px solid yellow;
+}
+
+.grid4 {
+    background-color: transparent;
+    top: 21px;
+    left: 1168px;
+    height: 661px;
+    width: 357px;
+    margin-left: 10px;
+    margin-top: 16px;
+    padding: 0;
+    border: 5px solid yellow;
 }
 
 /*# sourceMappingURL=style.css.map */
